@@ -1,0 +1,476 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<project xmlns="http://xmlns.oracle.com/jdeveloper/903/jproject" nselem="project" class="oracle.jdeveloper.model.JProject">
+   <defaultPackage>com.classified.product</defaultPackage>
+   <defaultPackages class="java.util.ArrayList">
+      <Item class="java.lang.String">com.classified.product</Item>
+      <Item class="java.lang.String">com.classified.cart</Item>
+      <Item class="java.lang.String">com.classified.exceptions</Item>
+      <Item class="java.lang.String">com.classified.customer</Item>
+      <Item class="java.lang.String">com.classified.register</Item>
+      <Item class="java.lang.String"/>
+      <Item class="java.lang.String">com.classified.common</Item>
+      <Item class="java.lang.String">com.classified</Item>
+      <Item class="java.lang.String">mypackage1</Item>
+   </defaultPackages>
+   <dependencyList/>
+   <htmlRootDirectory path="../../../resin-ee-2.1.6/webapps/classified/"/>
+   <j2eeWebAppName>Resin_Classifieds-Classifieds-webapp</j2eeWebAppName>
+   <j2eeWebContextRoot>Resin_Classifieds-Classifieds-context-root</j2eeWebContextRoot>
+   <listOfChildren class="oracle.ide.model.DataList">
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/SearchDBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/SubmitDBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/common/Classified.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/index.jsp"/>
+         <encoding>iso-8859-1</encoding>
+      </Item>
+      <Item class="oracle.ide.model.DeployableTextNode">
+         <URL path="../../../resin-ee-2.1.6/conf/resin.conf"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/SubmitClassified.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/ManageDBServlet.java"/>
+      </Item>
+      <Item class="oracle.bali.xml.addin.XMLSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/web.xml"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/ManageClassified.jsp"/>
+         <encoding>iso-8859-1</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/LoginSubmitHandler.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/login.jsp"/>
+         <encoding>iso-8859-1</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/SubmitNow.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/SubmitNowDBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/SubmitLogin.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/LoginHandler.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="TodaysDate.java"/>
+      </Item>
+      <Item class="oracle.jdevimpl.webapp.html.HtmlSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/Notice.html"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdevimpl.webapp.html.HtmlSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/test.html"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdevimpl.webapp.html.HtmlSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/test_js.html"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdevimpl.webapp.html.HtmlSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/Advertise.html"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/DeleteClassified.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/DeleteDBServlet.java" id="0"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/common/UserEmailServlet.java"/>
+      </Item>
+      <Item class="oracle.ide.model.DeployableTextNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/overlib.js"/>
+      </Item>
+      <Item class="oracle.jdevimpl.webapp.html.HtmlSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/indexHeader.htm"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/Look4U.jsp"/>
+         <encoding>iso-8859-1</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/Look4UDBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/Look4UFeature.java"/>
+      </Item>
+      <Item class="oracle.jdevimpl.cm.dt.sqlplus.SqlNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/SQL/Classifieds.sql"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/Look4MatchServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/URLConnectionReader.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/UpdateDBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/Update2DBServlet.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/UpdateClassified.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/common/SendMailServlet.java"/>
+      </Item>
+      <Item class="oracle.ide.model.DeployableTextNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/classes/com/classified/common/emailProperties.properties"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/customer/Customer.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/cart/Cart.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/customer/Address.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/customer/CreditCard.java"/>
+      </Item>
+      <Item class="oracle.ide.model.DeployableTextNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/classes/com/classified/emailProperties.properties"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/product/Product.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/product/Author.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/cart/CartItem.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/cart/Promotion.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/product/Category.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/product/Order.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/cust/NewAddress.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/cust/NewCreditCard.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/cust/lostPassword.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/LoginUserHandler.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/loginUser.jsp"/>
+         <encoding>iso-8859-1</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/LogoutUserHandler.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="../../../resin-ee-2.1.6/webapps/classified/cust/NewCustomer.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="com/classified/customer/BookMarkDBServlet.java"/>
+      </Item>
+   </listOfChildren>
+   <ownerMap/>
+   <projectDocPath>
+      <entries class="[Ljava.net.URL;"/>
+   </projectDocPath>
+   <projectLibraryList class="oracle.jdeveloper.library.JProjectLibraryList">
+      <jdkList class="java.util.ArrayList"/>
+      <libraryList class="java.util.ArrayList"/>
+   </projectLibraryList>
+   <projectSettings>
+      <activeConfigName>Development</activeConfigName>
+      <commonData class="java.util.HashMap">
+         <Item>
+            <Key>oracle.bm.commonIde.data.project.ModelerProjectSettings</Key>
+            <Value class="oracle.bm.commonIde.data.project.ModelerProjectSettings">
+               <modelersPath>
+                  <entries>
+                     <Item path="model/"/>
+                  </entries>
+               </modelersPath>
+            </Value>
+         </Item>
+         <Item>
+            <Key>oracle.jdeveloper.compiler.ant.AntConfiguration</Key>
+            <Value class="oracle.jdeveloper.compiler.ant.AntConfiguration">
+               <arguments class="java.lang.String"/>
+               <makeTarget/>
+               <projectBuildfile/>
+               <rebuildTarget/>
+               <showOutput>true</showOutput>
+            </Value>
+         </Item>
+      </commonData>
+      <configurations class="java.util.TreeMap">
+         <Item>
+            <Key>Development</Key>
+            <Value class="oracle.jdeveloper.model.JProjectConfiguration">
+               <configData class="java.util.HashMap">
+                  <Item>
+                     <Key>oracle.jdeveloper.compiler.OjcConfiguration</Key>
+                     <Value class="oracle.jdeveloper.compiler.OjcConfiguration">
+                        <assertionsEnabled>false</assertionsEnabled>
+                        <copyRes>
+                           <Item>.gif</Item>
+                           <Item>.properties</Item>
+                           <Item>.jpg</Item>
+                           <Item>.jpeg</Item>
+                           <Item>.xml</Item>
+                           <Item>-apf.xml</Item>
+                        </copyRes>
+                        <currentEncoding>Cp1252</currentEncoding>
+                        <debugInformation>true</debugInformation>
+                        <excludedClasses class="[Ljava.lang.String;"/>
+                        <obfuscate>false</obfuscate>
+                        <showCompileProgress>false</showCompileProgress>
+                        <showDeprecations>true</showDeprecations>
+                        <showObjectDotStaticWarnings>false</showObjectDotStaticWarnings>
+                        <showPartialImportWarnings>false</showPartialImportWarnings>
+                        <showSelfDeprecations>true</showSelfDeprecations>
+                        <showUnusedImportWarnings>false</showUnusedImportWarnings>
+                        <showWarnings>true</showWarnings>
+                        <target>Default</target>
+                        <updateImports>false</updateImports>
+                        <updateZipJarImports>false</updateZipJarImports>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.javadoc.JProjectJavadoc</Key>
+                     <Value class="oracle.jdeveloper.javadoc.JProjectJavadoc">
+                        <generateAuthor>false</generateAuthor>
+                        <generateDeprecated>true</generateDeprecated>
+                        <generateIndex>true</generateIndex>
+                        <generateNavbar>true</generateNavbar>
+                        <generateSince>true</generateSince>
+                        <generateTree>true</generateTree>
+                        <generateVersion>false</generateVersion>
+                        <heapSize>32</heapSize>
+                        <miscOptions class="java.lang.String"/>
+                        <oneOneFormat>false</oneOneFormat>
+                        <outputDirectory path="javadoc/"/>
+                        <scope>-protected</scope>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.runner.RunConfiguration</Key>
+                     <Value class="oracle.jdeveloper.runner.RunConfiguration">
+                        <VMName>ojvm</VMName>
+                        <allowInput>false</allowInput>
+                        <alwaysUseTarget>false</alwaysUseTarget>
+                        <clearLogBeforeRun>false</clearLogBeforeRun>
+                        <compileBeforeRun>true</compileBeforeRun>
+                        <connectionName/>
+                        <javaOptions class="java.lang.String"/>
+                        <logCommand>true</logCommand>
+                        <logError>true</logError>
+                        <logExit>true</logExit>
+                        <logOutput>true</logOutput>
+                        <programArguments class="java.lang.String"/>
+                        <runActiveFile>true</runActiveFile>
+                        <runDirectoryURL/>
+                        <targetURL idref="0"/>
+                        <useProxy>true</useProxy>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectLibraries</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectLibraries">
+                        <jdkName>j2sdk1.4.1_01</jdkName>
+                        <jdkVersionNumber>1.4.1_01</jdkVersionNumber>
+                        <libraries>Apache Ant;Apache Regexp 1.2;AQJMS;BC4J EJB Client;BC4J EJB Runtime;BC4J Generic Domains;BC4J HTML;BC4J Oracle9iAS Client;BC4J Oracle Domains;BC4J Runtime;BC4J Security;BC4J Struts Runtime;BC4J Tester;BC4J VB Client;BC4J VB Runtime;Chart;Connection Manager;DMS ProfilerAPI stub;EBI Messaging Adapters;EBI Runtime Support;Ice;InfoBus DAC;J2EE;Java Media Framework;JClient Runtime;JDeveloper;JDeveloper Extension SDK;JDeveloper Runtime;JDeveloper SCM API;JGL 3.1.0;JServer;JSP Runtime;JUnit Runtime;MySQL;Oracle8i Lite;Oracle9 iAS;Oracle BI Graph;Oracle DMS;Oracle Forms;Oracle Help for Java;Oracle Intermedia;Oracle Intermedia JClient;Oracle Java Compiler;Oracle JDBC;Oracle JEWT;Oracle JWSDL;Oracle SOAP;Oracle UDDI;Oracle XML Parser v2;Oracle XML SQL Utility;Servlet Runtime;SQLJ Runtime;Struts Runtime;Sun Tools;UIX Runtime;VisiBroker4;XSQL Runtime</libraries>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectPaths</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectPaths">
+                        <additionalClassPath>
+                           <entries>
+                              <Item path="../../../resin-ee-2.1.6/lib/activation.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/dom.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/ejb.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jaxp.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jdbc-mysql.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jdbc2_0-stdext.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jms.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jmx.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jndi.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jsdk23.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/jta-spec1_0_1.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/mail.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/resin-ejb.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/resin.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/sax.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/lib/webutil.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/lib/activation.jar" jar-entry=""/>
+                              <Item path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/lib/mail.jar" jar-entry=""/>
+                           </entries>
+                        </additionalClassPath>
+                        <outputDirectory path="../../../resin-ee-2.1.6/webapps/classified/WEB-INF/classes/"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.idl.config.IdlConfiguration</Key>
+                     <Value class="oracle.jdevimpl.idl.config.IdlConfiguration">
+                        <codeForIncludedFiles>false</codeForIncludedFiles>
+                        <noBindMethods>false</noBindMethods>
+                        <noComments>false</noComments>
+                        <noExampleCode>false</noExampleCode>
+                        <noSkeletonCode>false</noSkeletonCode>
+                        <noStubCode>false</noStubCode>
+                        <noTieCode>false</noTieCode>
+                        <noToString>false</noToString>
+                        <objectWrapper>false</objectWrapper>
+                        <packageName class="java.lang.String"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.codecoach.CCConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.codecoach.CCConfiguration">
+                        <advices>ALL</advices>
+                        <exclude>com;java;javax;sun;sunw;org;oracle</exclude>
+                        <include class="java.lang.String"/>
+                        <level>4</level>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.debug.DebugConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.debug.DebugConfiguration">
+                        <JPDAClassicDebugArguments>-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDAClassicDebugArguments>
+                        <JPDADebugArguments>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDADebugArguments>
+                        <OJVMDebugArguments>-XXdebug,quiet,port&lt;port></OJVMDebugArguments>
+                        <breakpointScope>workspace</breakpointScope>
+                        <remoteDebugging>false</remoteDebugging>
+                        <remoteDebuggingParameters class="java.util.HashMap"/>
+                        <remoteDebuggingParametersSaved>false</remoteDebuggingParametersSaved>
+                        <remoteDebuggingProtocol>ojvm</remoteDebuggingProtocol>
+                        <startOption>running</startOption>
+                        <tracingDisabled>java;javax;sun;sunw;com.sun;org.xml.sax</tracingDisabled>
+                        <tracingEnabled class="java.lang.String"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.profile.ProfileConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.profile.ProfileConfiguration">
+                        <DMSstartID>20000</DMSstartID>
+                        <DMSstate>0</DMSstate>
+                        <eventColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </eventColumnVisible>
+                        <events>G(All events;(G(VM Events;(E(0;GC;-16776961;1);E(10;Wait;-65485;0);E(11;Synch Blocks 0;-39322;0);E(12;Synch Blocks 1;-39322;0);E(13;Synch Blocks 2;-39322;0);E(20;Prepare Class;-16751002;0);E(21;Load Class;-16724992;0);E(22;Resolve Class;-16737997;0);));G(BC4J Events;(E(1000;JBO_MISCELLANEOUS;-4144960;1);E(1001;JDBC_SELECT;-256;1);E(1002;JDBC_CREATE_STATEMENT;-256;1);E(1003;JDBC_CONNECT;-256;1);E(1004;JDBC_CREATE_PREPARED_STATEMENT;-256;1);E(1005;JDBC_EXECUTE;-256;1);E(1006;METAOBJECT_LOAD;-65281;1);E(1007;EXECUTE_QUERY;-16776961;1);E(1008;BC4J_CREATE_COMPOBJ;-65281;0);E(1009;BC4J_CREATE_ROOTAM;-65281;1);E(1010;BC4J_CREATE_VIEWOBJECT;-65281;0);E(1011;BC4J_CREATE_AM;-65281;0);E(1012;BC4J_CREATE_VIEWLINK;-65281;0);E(1013;SQLB_DOENTITYDML;-16776961;1);E(1014;SQLB_DOENTITYSELECT;-16776961;1);E(1015;VIEWOBJECT_GETSTATEMENT;-16776961;1);E(1016;REMOTE_METHOD_CALL;-65536;1);));));</events>
+                        <excludedClasses>java;javax;sun;sunw;com;oracle</excludedClasses>
+                        <excludedInstances class="java.lang.String"/>
+                        <includedClasses class="java.lang.String"/>
+                        <includedInstances class="java.lang.String"/>
+                        <localProfiling>true</localProfiling>
+                        <memColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </memColumnVisible>
+                        <memoryUpdateInterval>10</memoryUpdateInterval>
+                        <remoteHost class="java.lang.String"/>
+                        <remoteParametersSaved>false</remoteParametersSaved>
+                        <remotePort>4000</remotePort>
+                        <sampleColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </sampleColumnVisible>
+                        <sampleInterval>5</sampleInterval>
+                        <sliderDepth>20</sliderDepth>
+                        <useAPI>false</useAPI>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.sqlj.config.SqljConfiguration</Key>
+                     <Value class="oracle.jdevimpl.sqlj.config.SqljConfiguration">
+                        <checkSemantics>false</checkSemantics>
+                        <codegen>oracle</codegen>
+                        <contextConnectionMap class="java.util.HashMap"/>
+                        <useCache>false</useCache>
+                        <warnAll>false</warnAll>
+                        <warnNull>false</warnNull>
+                        <warnPortable>false</warnPortable>
+                        <warnPrecision>false</warnPrecision>
+                        <warnStrict>false</warnStrict>
+                        <warnVerbose>false</warnVerbose>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>WebappJspCompilerOptions</Key>
+                     <Value class="oracle.jdevimpl.webapp.jsp.JspCompilerOptions">
+                        <requestTimeIntrospection>false</requestTimeIntrospection>
+                     </Value>
+                  </Item>
+               </configData>
+            </Value>
+         </Item>
+      </configurations>
+   </projectSettings>
+   <projectSourcePath>
+      <entries>
+         <Item path="."/>
+      </entries>
+   </projectSourcePath>
+   <properties class="java.util.HashMap">
+      <Item>
+         <Key>CachedConfigTable</Key>
+         <Value class="oracle.jsp.parse.CachedConfigTable"/>
+      </Item>
+   </properties>
+   <userAuthor/>
+   <userCompany/>
+   <userCopyright/>
+   <userDescription/>
+   <userTitle/>
+   <userVersion/>
+</project>
